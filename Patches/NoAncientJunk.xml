@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="ScatterRoadDebris"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="ScatterRoadDebris"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="AncientUtilityBuilding"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="AncientUtilityBuilding"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="MechanoidRemains"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="MechanoidRemains"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="AncientTurret"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="AncientTurret"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="AncientMechs"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="AncientMechs"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="AncientLandingPad"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="AncientLandingPad"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="AncientFences"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="AncientFences"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="AncientPipelineSection"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="AncientPipelineSection"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="AncientJunkClusters"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="MapCommonBase"]/genSteps/li[text()="AncientJunkClusters"]</xpath>
+  </Operation>
+
+</Patch>

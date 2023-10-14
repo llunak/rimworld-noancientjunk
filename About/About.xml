@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>No Ancient Junk</name>
+    <author>llunak</author>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <packageId>llunak.NoAncientJunk</packageId>
+    <loadAfter>
+        <li>Ludeon.RimWorld.Ideology</li>
+    </loadAfter>
+    <description>This mod removes the ancient ruins junk scattered on the map, introduced by the Ideology DLC.
+
+The Ideology DLC scatters on all maps various junk such as old cars, giant wheels, pipelines, robot remains, kitchen sinks and so on. This mod prevents them from being generated on newly created maps.
+
+Note that this does not remove the exostrider remains (robot with a blinking red light), as that one has a purpose. If you want to remove it, select your starting scenario when creating a game, then click 'Scenario Editor', enable 'Edit mode', click 'Add part' and select 'Disable exostrider remains'.
+
+GitHub: https://github.com/llunak/rimworld-noancientjunk
+</description>
+</ModMetaData>

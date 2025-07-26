@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/TileMutatorDef[defName="Dunes"]/preventGenSteps/li[text()="AncientUtilityBuilding"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/TileMutatorDef[defName="Dunes"]/preventGenSteps/li[text()="AncientLandingPad"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientUtilityBuilding"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientTurret"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientMechs"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientLandingPad"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientFences"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientPipelineSection"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientJunkClusters"]</xpath>
+  </Operation>
+
+</Patch>

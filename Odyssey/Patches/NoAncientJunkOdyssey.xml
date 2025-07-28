@@ -37,4 +37,8 @@
     <xpath>Defs/BiomeDef[defName="GlacialPlain"]/preventGenSteps/li[text()="AncientJunkClusters"]</xpath>
   </Operation>
 
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="ScarlandsJunkClusters"]/preventsGenSteps/li[text()="AncientJunkClusters"]</xpath>
+  </Operation>
+
 </Patch>

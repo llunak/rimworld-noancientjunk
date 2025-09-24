@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="ScatterRoadDebris"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="AncientUtilityBuilding"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="MechanoidRemains"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="AncientTurret"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="AncientMechs"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="AncientLandingPad"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="AncientFences"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="AncientPipelineSection"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef[@Name="RotR_TempSiteMapGeneratorBase"]/genSteps/li[text()="AncientJunkClusters"]</xpath>
+  </Operation>
+
+</Patch>
